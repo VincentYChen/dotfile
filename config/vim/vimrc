@@ -30,6 +30,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'altercation/vim-colors-solarized'
 " Bundle 'Valloric/YouCompleteMe'
 Bundle 'vim-scripts/a.vim'
+Bundle 'derekwyatt/vim-scala'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'honza/vim-snippets'
 Bundle 'Rip-Rip/clang_complete'
