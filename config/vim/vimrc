@@ -28,7 +28,7 @@ Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'Valloric/YouCompleteMe'
+" Bundle 'Valloric/YouCompleteMe'
 Bundle 'vim-scripts/a.vim'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'honza/vim-snippets'
@@ -38,10 +38,10 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'yegappan/grep'
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'rking/ag.vim'
-Bundle 'rdnetto/YCM-Generator'
+" Bundle 'rdnetto/YCM-Generator'
 Bundle 'majutsushi/tagbar'
 Bundle 'scrooloose/syntastic'
-Bundle 'jeaye/color_coded'
+" Bundle 'jeaye/color_coded'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
