@@ -13,12 +13,21 @@ function install_tmux_configuration()
   ln -s $ROOTDIR/config/tmux/tmux.conf $HOME/.tmux.conf
 }
 
+function install_git_configuration()
+{
+  rm -rf $HOME/.gitconfig
+  ln -s $ROOTDIR/config/git/gitconfig $HOME/.gitconfig
+}
+
 function install_zsh_configuration()
 {
   rm -rf $HOME/.zshrc
   ln -s $ROOTDIR/config/shell/zsh/zshrc $HOME/.zshrc
+  rm -rf $HOME/.startup
+  ln -s $ROOTDIR $HOME/.startup
 }
 
 install_zsh_configuration
 install_vim_configuration
 install_tmux_configuration
+install_git_configuration

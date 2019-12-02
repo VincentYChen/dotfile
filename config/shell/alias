@@ -1,4 +1,5 @@
-alias 2work='cd /Users/vincent/Documents/work'
-alias 2source='cd /Users/vincent/Documents/source'
+alias 2work='cd $HOME/work'
+alias 2source='cd $HOME/source'
+alias 2test='cd $HOME/test'
 alias ag='ag --pager="less -XFR"'
 
